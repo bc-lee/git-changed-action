@@ -1,0 +1,6 @@
+name: 'git-changed-action'
+description: 'Github action who cares about git file change'
+author: 'Byoungchan Lee <byoungchan.lee@gmx.com>'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
